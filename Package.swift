@@ -20,7 +20,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(name: "SoftphoneFacade",
                       url: "https://dist.acrobits.cz/deliveryhero-softphonefacade/SoftphoneFacade.xcframework-1806396.zip",
-                      checksum: "b37fd696dc2cad201070ea0ab30f9d2dace582143b8f4a2909f364a17aabcdd9"
+                      checksum: "1a5479b0a0d46ca5a33e6b9bdbbe7778a404d2348af8be08d1e7bb4aba37fed6"
                      ),
 
     ]
