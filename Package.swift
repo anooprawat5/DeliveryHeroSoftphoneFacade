@@ -19,8 +19,8 @@ let package = Package(
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(name: "SoftphoneFacade",
-                      url: "https://dist.acrobits.cz/deliveryhero-softphonefacade/SoftphoneFacade.xcframework-1806849.zip",
-                      checksum: "bef040d7e6fe33c7b5d0a713fa13cecb71a2e29f8894c3ee995035d55a44fc3b"
+                      url: "https://dist.acrobits.cz/deliveryhero-softphonefacade/SoftphoneFacade.xcframework-1806854.zip",
+                      checksum: "278b9619ca9582df7c6269d377da41b01ff04c27c51756f605c19fdc122530ee"
                      ),
 
     ]
