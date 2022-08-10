@@ -23,11 +23,15 @@ let package = Package(
                dependencies: [
                               .target(name: "SoftphoneFacade"),
                               .product(name: "SoftphoneSwiftPackage-saas-local", package: "saas")
-                              ]),
+                              ],
+                linkerSettings: [
+                    .linkedFramework("SoftphoneFacade")
+                ]),
+        
         .binaryTarget(
             name: "SoftphoneFacade",
-            url: "https://dist.acrobits.cz/deliveryhero-softphonefacade/SoftphoneFacade.xcframework-1807312.zip",
-            checksum: "2fa32e8cdc6474104ad78cb77172ee65ff9eab665bd50a4efb78456319d431e1")
-
+            url: "https://dist.acrobits.cz/deliveryhero-softphonefacade/SoftphoneFacade.xcframework-1807322.zip",
+            checksum: "b5e441cf5af9e2a2063d318cbf5db4f5323a85da39fdeea9c39a005891b736d2"
+        )
     ]
 )
