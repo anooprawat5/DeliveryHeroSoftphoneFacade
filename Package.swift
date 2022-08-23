@@ -8,7 +8,7 @@ let package = Package(
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
-            name: "SdkFacade",
+            name: "SoftphoneFacade",
             targets: ["SoftphoneFacadeTargets"]),
     ],
     dependencies: [
@@ -21,11 +21,11 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(name: "SoftphoneFacadeTargets",
                dependencies: [
-                              .target(name: "SoftphoneFacade"),
+                              .target(name: "SoftphoneFacadeLib"),
                               .product(name: "SoftphoneSwiftPackage-saas-local", package: "SoftphoneSdk")
                               ],
                 linkerSettings: [
-                    .linkedFramework("SoftphoneFacade")
+                    .linkedFramework("SoftphoneFacadeLib")
                 ]),
         
         .binaryTarget(
