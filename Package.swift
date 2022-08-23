@@ -14,7 +14,7 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
-        .package(name: "SoftphoneSdk", url: "https://github.com/acrobits/SoftphoneSwiftPackage-saas-local", .exact("1.0.180779"))
+        .package(name: "SoftphoneSdk", url: "https://github.com/acrobits/SoftphoneSwiftPackage-saas-local", .exact("1.0.181301"))
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -31,7 +31,7 @@ let package = Package(
         .binaryTarget(
             name: "SoftphoneFacade",
             url: "https://dist.acrobits.cz/deliveryhero-softphonefacade/SoftphoneFacade.xcframework-1807798.zip",
-            checksum: "4d84b6c5d11edf31bbe6f2648e793019b9bd92aad41bc26a037d67f37c4c1aa0"
+            checksum: "6426a76b03f02a58abb79492ef13d313c1880699f0b84a66a96bbc7ad9e04ae9"
         )
     ]
 )
