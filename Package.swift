@@ -30,8 +30,8 @@ let package = Package(
         
         .binaryTarget(
             name: "SoftphoneFacadeLib",
-            url: "https://dist.acrobits.cz/deliveryhero-softphonefacade/SoftphoneFacadeLib.xcframework-1814862.zip",
-            checksum: "4b29edc52249cec4f4b5e7949943689672b8e742b3539d33de413f5dc17d4b0c"
+            url: "https://dist.acrobits.cz/deliveryhero-softphonefacade/SoftphoneFacadeLib.xcframework-1814865.zip",
+            checksum: "9e7627391bd87b7f33659af367a8684881064f30948aeac6b14d79befe502f03"
         )
     ]
 )
