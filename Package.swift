@@ -22,7 +22,7 @@ let package = Package(
         .target(name: "SoftphoneFacadeTargets",
                dependencies: [
                               .target(name: "SoftphoneFacadeLib"),
-                              .product(name: "SoftphoneSdk", package: "SoftphoneSdk")
+                              .product(name: "SoftphoneSwiftPackage-saas-local", package: "SoftphoneSdk")
                               ],
                 linkerSettings: [
                     .linkedFramework("SoftphoneFacadeLib")
