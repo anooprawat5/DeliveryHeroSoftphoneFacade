@@ -21,8 +21,8 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(name: "SoftphoneFacadeTargets",
                dependencies: [
-                              .target(name: "SoftphoneSwiftPackage-saas-local"),
-                              .product(name: "SoftphoneSwiftPackage-saas-local", package: "SoftphoneSdk")
+                              .target(name: "SoftphoneFacadeLib"),
+                              .product(name: "SoftphoneSwiftPackage-saas-local", package: "SoftphoneSwiftPackage-saas-local")
                               ],
                 linkerSettings: [
                     .linkedFramework("SoftphoneFacadeLib")
