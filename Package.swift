@@ -10,6 +10,10 @@ let package = Package(
         .library(
             name: "SoftphoneFacade",
             targets: ["SoftphoneFacadeTargets"]),
+        .library(
+            name: "SoftphoneFacade-Dynamic",
+            type: .dynamic,
+            targets: ["SoftphoneFacadeTargets"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
